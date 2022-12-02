@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- comments -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lead Capturing</title>
+    <link rel="stylesheet" type="text/css" href="TraXx.css"
+   </head>
+   <style>
+    body {
+        background: black;
+        color: white;
+    }
+    </style>
+   <body>
+    <header>
+      <a href="OJT.html"> Log In</a>
+      <a href="OJTMenu.html" target="_blank">Menu</a>
+      <a href="datamanage.html" target="_blank">Data Management and Tracking</a>
+      <a href="response.html" target="_blank">Response</a>
+       <!-- <a href="scheduling.html"target="_blank">Scheduling and Tracking</a> -->
+        
+        <a href="about.html"> About</a>
+      <a href="Contact.html" target="_blank">Contact Us</a>
+    </header>
+    <h1>TraXx</h1>
+    <h3>Leads Management Specialist</h3>
+    <br></br>
+    <center> <h4> Enter Lead Information </h4> </center>
+<br></br>
+<p>
+  <label for="where-about">
+  Community Location
+  </label>
+  <select name="Community" id="Location">
+  <option value="north">North</option>
+  <option value="south">South</option>
+  <option value="east">East</option>
+  <option value="south">South</option>
+  </select>
+  </p>
+  <p>
+    <label for="source">
+    Lead Source
+    </label>
+    <select name="Lead" id="Source">
+    <option value="web ads">Web Ads</option>
+    <option value="fb ads">Facebook Ads</option>
+    <option value="mags">Magazines</option>
+    <option value="friends">Friends</option>
+    </select>
+    </p>
+<!--<h5>COMMUNITY LOCATION <select name ='menu1' id ='menu1' class = 'menu1' style = "color: #006699;font-family: Arial;font-size: 12px;font-style: normal;background-color: #FFFFFF;padding: 2px">
+</h5>
+</select>
+<h5>LEAD SOURCE <select name ='menu1' id ='menu1' class = 'menu1' style = "color: #006699;font-family: Arial;font-size: 12px;font-style: normal;background-color: #FFFFFF;padding: 2px">
+</h5>
+</select>-->
+<!--<input type = 'button' id = 'btnmenu1' class = 'btnmenu1' style = "color: #FFFFFF;font-family: Arial;font-size: 12px;font-style: normal;background-color: #006699;padding: 2px;cursor: pointer" onmouseover = "this.style.backgroundColor = '#008FD6'"  onmouseout = "this.style.backgroundColor = '#006699'"  onclick = 'window.open(document.getElementById("menu1").options[document.getElementById("menu1").selectedIndex].value)' value = 'Click here' /> </h5COMMUNITY></h5>-->
+<!--<br></br>-->
+<hr></hr>
+<h5>Lead Information</h5>
+
+<form action="datamanage.html">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address"><br><br>
+  <label for="phone">Cell Phone:</label><br>
+  <input type="tel" id="phone" name="phone"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="text" id="emaile" name="email"><br><br>
+  <p>
+    <label for="status">
+    Lead Status
+    </label>
+    <select name="Lead" id="Stat">
+    <option value="interested">Interested</option>
+    <option value="not qualified">Not Qualified</option>
+    <option value="closed">Closed</option>
+    <option value="drop">Drop</option>
+    </select>
+    </p>
+  <input type="submit" value="Submit">
+  </form> 
+</body>
